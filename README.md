@@ -1,6 +1,6 @@
-#Python 2 launcher for Archlinux
+#Building script for Archlinux
 
-Archlinux comes with python 3 installed as default. Because android only works with python 2, building with python 3 WILL break. That's why I made myself a small script that will set python 2 as default for building. However to get this script woking you must do the folllowing :
+Archlinux comes with python 3 installed as default. Because android only works with python 2, building with python 3 WILL break. That's why I made myself a small script that will set python 2 as default for building. Arch also comes with a glibc that doesn't work well with building so the script will set the language to c. However to get this script woking you must do the folllowing :
 
 First you will need to change the default Python from 3 to 2. This will create a directory that will be activated by the script.
 
@@ -26,4 +26,4 @@ To execute the script simply run :
 $ . build/envsetup.sh
 ```
 
-That's all!
+That's all
