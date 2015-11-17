@@ -10,7 +10,7 @@ Enter this into the terminal :
 $ virtualenv2 venv # Creates a directory, venv/, containing the Virtualenv
 ```
 
-Next up you need to clone the script into your android folder. To do that, open your terminal in the AOSP, CM, Omni directory or cp into it. 
+Next up you need to clone the script into your android folder. To do that, open your terminal in the AOSP/CM/Omni directory or cp into it. 
 
 Run the following : 
 
