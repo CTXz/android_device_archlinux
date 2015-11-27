@@ -4,10 +4,12 @@ Archlinux comes with python 3 installed as default. Because android only works w
 
 First you will need to change the default Python from 3 to 2. This will create a directory that will be activated by the script.
 
+
 Enter this into the terminal :
 
 ```
-$ virtualenv2 venv # Creates a directory, venv/, containing the Virtualenv
+
+cd ~/ && virtualenv2 venv # Creates a directory, venv/, containing the Virtualenv
 ```
 
 Next up you need to clone the script into your android folder. To do that, open your terminal in the AOSP/CM/Omni directory or cp into it. 
@@ -15,7 +17,7 @@ Next up you need to clone the script into your android folder. To do that, open 
 Run the following : 
 
 ```
-$ git clone https://github.com/CTXz/android_device_archlinux.git device/archlinux
+git clone https://github.com/CTXz/android_device_archlinux.git device/archlinux
 ```
 
 Now the script is located in <Your android dir>/device/archlinux. 
@@ -23,7 +25,7 @@ Now the script is located in <Your android dir>/device/archlinux.
 To execute the script simply run :
 
 ```
-$ . build/envsetup.sh
+. build/envsetup.sh
 ```
 
 That's all
